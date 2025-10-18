@@ -40,7 +40,7 @@ function Projects() {
     <Container>
       <Title>
         <h1>My Projects</h1>
-        <Button type="button" onClick={() => navigate("/")}>Voltar</Button>
+        <Button type="button" onClick={() => navigate("/")}>Home</Button>
       </Title>
       <MainPrjects>
         {updateProjects.map(project => (
