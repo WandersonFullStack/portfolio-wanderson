@@ -19,10 +19,6 @@ export const Title = styled.div`
     border: none;
     padding: 40px var(--container-padding);
 
-    img {
-        width: 230px;
-    }
-
     h1 {
         background: linear-gradient(-45deg, #B0E0E6);
         background-size: 400% 400%;
@@ -117,7 +113,7 @@ export const Technologies = styled.div`
 
 export const AvatarUser = styled.img`
 
-    width: clamp(64px, 10vw, 90px);
+    width: clamp(64px, 10vw, 130px);
 
 `
 

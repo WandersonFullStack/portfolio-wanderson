@@ -1,6 +1,6 @@
 import CardMain from "../../components/CardMain"
 import { Container, Title, Main, Section, Contacts, Technologies, AvatarUser, Content } from "./styles"
-// import ImagePersona from '../../assets/react.svg'
+import ImagePersona from '../../assets/persona.png'
 import Button from "../../components/Button"
 import { useNavigate } from 'react-router-dom'
 
@@ -19,8 +19,7 @@ function Home() {
     return (
         <Container>
             <Title>
-                {/* <img src={ImagePersona} alt="image-persona" /> */}
-                <AvatarUser src='https://avatar.iran.liara.run/public/boy' alt="avatar-user" />
+                <AvatarUser src={ImagePersona} alt="avatar-user" />
                 <h1>Hello, I'am Wanderson Magalhães</h1>
             </Title>
             <Main>
@@ -47,7 +46,7 @@ function Home() {
                         <h2>About me :</h2>
                         <p>
                             I'm a beginner full-stack developer with a passion for technology and innovation.
-                            With expertise in languages ​like JavaScript, HTML, CSS, and frameworks like React and Node.js,
+                            With expertise in languages like JavaScript, HTML, CSS, and frameworks like React and Node.js,
                             I'm always looking to learn and grow in the software development field.
 
                             My journey began with a strong interest in solving problems and creating solutions that improve the user experience.
